@@ -1,0 +1,10 @@
+^C:\USERS\OTTER\DESKTOP\PROJECTS\BOUND\CMAKE-BUILD-RELEASE\CMAKEFILES\21BEF342D4D361EE3BED604EB65314C4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\JetBrains\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/otter/Desktop/projects/bound -BC:/Users/otter/Desktop/projects/bound/cmake-build-release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/otter/Desktop/projects/bound/cmake-build-release/bound.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
