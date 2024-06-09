@@ -3,4 +3,5 @@ project(bound)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(bound main.cpp)
+add_executable(bound bound.cpp
+        bound.h)
