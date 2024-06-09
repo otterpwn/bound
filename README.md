@@ -57,3 +57,9 @@ int main() {
 2. Find the PID of all the processes to block
 3. Filter the network connections related to these processes
 4. Set firewall rules for the resulting connections
+
+---
+
+![Virustotal results](https://github.com/otterpwn/bound/blob/main/assets/vt_results.png)
+
+![Kleenscan results](https://github.com/otterpwn/bound/blob/main/assets/kleenscan_results.png)
